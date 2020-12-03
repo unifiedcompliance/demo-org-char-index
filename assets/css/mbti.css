@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100rem;
+    margin: 2rem auto;
+}
+h1 {
+    margin-bottom: 4rem;
+}
+table {
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+table thead {
+    text-transform: uppercase;
+    color: #495057;
+}
+table thead tr {
+    border-bottom: 2px solid #d8dadb;
+}
+table thead tr th {
+    font-weight: 400;
+    padding: .75rem;
+    vertical-align: bottom;
+}
+table tbody tr {
+    border-bottom: 1px solid #d8dadb;
+}
+table tbody tr td {
+    padding: .75rem;
+}
